@@ -9,7 +9,7 @@ export const routes = createBrowserRouter([
         path: '/',
         element: (
             <ProtectedRoute>
-                <Home />
+                <Home /> 
             </ProtectedRoute>
         ),
     },
