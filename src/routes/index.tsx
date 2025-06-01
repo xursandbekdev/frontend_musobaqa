@@ -19,6 +19,6 @@ export const routes = createBrowserRouter([
     },
     {
         path: '/auth/register',
-        element: <RegisterPage />,
+        element: <RegisterPage /> ,
     },
 ]);
