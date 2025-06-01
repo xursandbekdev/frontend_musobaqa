@@ -19,12 +19,13 @@ const Home = () => {
 
   return (
     <Layout>
-      <Sider className="min-h-screen" trigger={null} collapsible collapsed={collapsed}>
-        <div className="demo-logo-vertical" >
-
-
-
-        </div>
+      <Sider
+        className="min-h-screen"
+        trigger={null}
+        collapsible
+        collapsed={collapsed}
+      >
+        <div className="demo-logo-vertical"></div>
         <Menu
           theme="dark"
           mode="inline"
@@ -42,9 +43,6 @@ const Home = () => {
               label: "nav 2",
             },
 
-
-
-            
             {
               key: "3",
               icon: <UploadOutlined />,
